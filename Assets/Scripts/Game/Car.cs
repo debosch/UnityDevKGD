@@ -1,7 +1,7 @@
 ﻿using Events;
 using UnityEngine;
 
-namespace Gem {
+namespace Game {
 
     public class Car : MonoBehaviour {
 
