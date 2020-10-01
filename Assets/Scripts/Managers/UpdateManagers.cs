@@ -8,6 +8,7 @@ namespace Game {
         
         [SerializeField]
         private ScriptableEvent _fixedEvent;
+        
         private void Update() {
             _updateEvent.Dispatch();
         }
