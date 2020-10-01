@@ -6,8 +6,7 @@ using UnityEngine;
 
 namespace Game {
 
-    public class Car : MonoBehaviour
-    {
+    public class Car : MonoBehaviour {
 
         [SerializeField] 
         private EventListener _updateEventListener;
@@ -17,6 +16,5 @@ namespace Game {
         private void Move() {
             Debug.Log("Move");
         }
-
     }
 }

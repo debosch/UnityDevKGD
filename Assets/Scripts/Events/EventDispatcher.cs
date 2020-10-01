@@ -2,11 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Events
-{
+namespace Events {
 
-    public class EventDispatcher : MonoBehaviour
-    {
+    public class EventDispatcher : MonoBehaviour {
 
         [SerializeField] 
         private ScriptableEvent _someEvent;

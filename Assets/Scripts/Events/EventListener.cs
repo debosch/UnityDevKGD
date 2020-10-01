@@ -22,8 +22,5 @@ namespace Events {
       private void EventHappened() {
          OnEventHappened.Invoke();
       }
-    
-
-      
    }
 }
