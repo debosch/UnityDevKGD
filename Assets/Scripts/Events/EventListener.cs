@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -10,8 +9,7 @@ namespace Events {
         private ScriptableEvent _someEvent;
 
         public event Action OnEventHappened = delegate { };
-        private void OnEnable()
-        {
+        private void OnEnable() {
             _someEvent.AddListener(EventHappened);
         }
         private void OnDisable() {
