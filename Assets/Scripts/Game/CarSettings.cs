@@ -1,0 +1,12 @@
+﻿using UnityEngine;
+
+namespace Game {
+
+    [CreateAssetMenu(fileName = "New Car", menuName = "Car")]
+    public class CarSettings : ScriptableObject {
+        
+        public int dodgeScore;
+
+    }
+}
+
