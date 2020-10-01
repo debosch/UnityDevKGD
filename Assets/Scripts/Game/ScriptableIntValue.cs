@@ -2,7 +2,9 @@
 using UnityEngine;
 
 namespace Game {
-    public class ScriptableValue : MonoBehaviour {
+    
+    [CreateAssetMenu(fileName = "Score", menuName = "Score")]
+    public class ScriptableValue : ScriptableObject {
         public int score;
     }
 }
