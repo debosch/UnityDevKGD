@@ -1,23 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Diagnostics.Tracing;
+﻿using Events;
 using UnityEngine;
 
-namespace Game
-{
-    public class Car : MonoBehaviour
-    {
+namespace Game {
+
+    public class Car : MonoBehaviour {
+
         [SerializeField]
         private EventListener _updateEventListener;
 
-        private void Awake()
-        {
+        private void Awake() {
             _updateEventListener.OnEventHappened += Move;
         }
 
-        private void Move()
-        {
+        private void Move() {
             Debug.Log("Move");
         }
 
