@@ -9,6 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 054f64c931ba95042bfc61f3a84aaf98, type: 3}
-  m_Name: CarDodged
+  m_Script: {fileID: 11500000, guid: 129dd1830eb423e4b9751e95277e65a7, type: 3}
+  m_Name: Scriptable Int Value
   m_EditorClassIdentifier: 
+  score: 0
