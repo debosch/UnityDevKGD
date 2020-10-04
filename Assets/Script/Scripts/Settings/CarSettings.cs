@@ -1,12 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
 namespace Settings{
-
+    [CreateAssetMenu(fileName = "Cars",menuName = "Cars")]
     public class CarSettings : ScriptableObject {
 
-        int dodgeScore;
+        public int dodgeScore;
         
         
     }
