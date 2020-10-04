@@ -6,6 +6,7 @@ namespace CarSettings {
     [CreateAssetMenu(fileName = "CarSettings", menuName = "CarSettings")]
     public class CarSettings : ScriptableObject {
 
-       
+        [SerializeField]
+        private int _dodgedScore;
     }
 }
