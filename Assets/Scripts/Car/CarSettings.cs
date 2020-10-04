@@ -7,6 +7,6 @@ namespace CarSettings {
     public class CarSettings : ScriptableObject {
 
         [SerializeField]
-        public int dodjeScor = 0;
+        private int _dodjeScor = 0;
     }
 }
