@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab0901fe349d442b88bcfc6d258196a0, type: 3}
   m_Name: Truck
   m_EditorClassIdentifier: 
-  _dodgeScore: 0
+  _dodgeScore: 20
