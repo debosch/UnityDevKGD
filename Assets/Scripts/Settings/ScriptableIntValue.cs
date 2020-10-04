@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 
-namespace Game {
+namespace Settings {
 
     [CreateAssetMenu(fileName = "NewScriptableIntValue", menuName = "ScriptableIntValue")]
     public class ScriptableIntValue : ScriptableObject {
 
         [SerializeField]
-        private int score = 0;
+        private int _score;
     }
 }
