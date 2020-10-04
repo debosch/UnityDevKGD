@@ -5,7 +5,7 @@ using UnityEngine;
 namespace ScriptableIntValue {
 
     [CreateAssetMenu(fileName = "CarDodged", menuName = "new CarDodged")]
-    public class CarDodje : MonoBehaviour {
+    public class CarDodged : ScriptableObject {
         [SerializeField]
         private ScriptableIntValue _score;
 
