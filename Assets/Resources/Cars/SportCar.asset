@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc626dcf9d313a54facecd1db2e7c71b, type: 3}
-  m_Name: CarsSettings
+  m_Name: SportCar
   m_EditorClassIdentifier: 
   _dodgedScore: 0
