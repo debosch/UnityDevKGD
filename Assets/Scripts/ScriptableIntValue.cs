@@ -6,6 +6,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Score", menuName="New Score")]
 public class ScriptableIntValue : ScriptableObject
 {
-    [SerializeField]
-    public int save_score;
+    public int score;
 }
