@@ -6,7 +6,7 @@ using UnityEngine;
 public class CarSettings : ScriptableObject
 {
     [SerializeField]
-    private string name;
+    private string _name;
     [SerializeField]
-    private int dodgeScore;
+    private int _dodgeScore;
 }
