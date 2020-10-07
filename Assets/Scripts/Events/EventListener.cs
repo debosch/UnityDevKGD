@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Events {
     
     public class EventListener : MonoBehaviour {
+        
         [SerializeField] private ScriptableEvent _someEvent;
 
         public event Action onEventHappened = delegate { };

@@ -1,21 +1,20 @@
-﻿using System;
-using Events;
+﻿using Events;
 using UnityEngine;
 
 namespace Game {
-    
+
     public class UpdateManager : MonoBehaviour {
-        
-        [SerializeField] 
+
+        [SerializeField]
         private ScriptableEvent _updateEvent;
 
-        [SerializeField] 
+        [SerializeField]
         private ScriptableEvent _fixedEvent;
 
         private void Update() {
             _updateEvent.Dispatch();
         }
-        
+
         private void FixedUpdate() {
             _fixedEvent.Dispatch();
         }

@@ -2,7 +2,9 @@
 using System.Collections;
 using UnityEngine;
 namespace UI {
+
     public class Fader : MonoBehaviour {
+    
         [SerializeField]
         private CanvasGroup _canvasGroup;
         [SerializeField]

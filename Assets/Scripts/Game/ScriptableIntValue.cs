@@ -1,9 +1,10 @@
 using UnityEngine;
 
 namespace Game {
-    
-    [CreateAssetMenu(fileName = "CurrentStore", menuName = "Value/CurrentStore")]
+
+    [CreateAssetMenu(fileName = "CurrentSсore", menuName = "Value/CurrentSсore")]
     public class ScriptableIntValue : ScriptableObject {
-        public int currentStore;
+
+        public int currentSсore;
     }
 }
